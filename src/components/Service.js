@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 //IMAGES
-import img1 from "../assets/banner/banner5.jpg";
+import img1 from "../assets/banner/banner20.jpg";
 
 //AOS ANIMATION
 import AOS from "aos";
@@ -17,12 +17,12 @@ function Service() {
       description:
         "In Tiến Thành cung cấp các dịch vụ in ấn bạt Hiflex, decal PP, decal ôtô, băng rôn, backlit, canvas ... Chúng tôi liên kết để tạo ra hệ thống máy móc, nhà xưởng đầy đủ và hiện đại nhằm cung cấp dịch vụ in ấn với chất lượng cao và giá thành cạnh tranh nhất tới khách hàng. Rất hy vọng nhận được sự hợp tác và đồng hành cùng Quý khách.",
     },
-    {
-      url: "https://inbacviet.com.vn/wp-content/themes/lamvt-inbacviet/images/dich-vu-2.jpg",
-      title: "DỊCH VỤ THIẾT KẾ",
-      description:
-        "Dịch vụ thiết kế đồ họa của chúng tôi là sự kết hợp tinh tế giữa sự sáng tạo và hiểu biết sâu sắc về nhu cầu của khách hàng. Chúng tôi cung cấp dịch vụ thiết kế từ những dự án nhỏ như: Thiết kế backlit, decal, banner, tranh canvas… đến các dự án lớn hơn như sách, hồ sơ năng lực, hệ thống nhận diện thương hiệu cho các công ty, tập đoàn trong cả nước. Chúng tôi cam kết cung cấp giải pháp thiết kế sáng tạo và tối ưu nhất cho khách hàng.",
-    },
+    // {
+    //   url: "https://inbacviet.com.vn/wp-content/themes/lamvt-inbacviet/images/dich-vu-2.jpg",
+    //   title: "DỊCH VỤ THIẾT KẾ",
+    //   description:
+    //     "Dịch vụ thiết kế đồ họa của chúng tôi là sự kết hợp tinh tế giữa sự sáng tạo và hiểu biết sâu sắc về nhu cầu của khách hàng. Chúng tôi cung cấp dịch vụ thiết kế từ những dự án nhỏ như: Thiết kế backlit, decal, banner, tranh canvas… đến các dự án lớn hơn như sách, hồ sơ năng lực, hệ thống nhận diện thương hiệu cho các công ty, tập đoàn trong cả nước. Chúng tôi cam kết cung cấp giải pháp thiết kế sáng tạo và tối ưu nhất cho khách hàng.",
+    // },
   ];
 
   useEffect(() => {
@@ -59,14 +59,14 @@ function Service() {
                 />
               </div>
               <div
-                className={`service__textbox wow fadeInUp ${
+                className={`service__textbox flex flex-col justify-center wow fadeInUp ${
                   index === 1
                     ? "text-left lg:text-right pt-8 pb-4 lg:p-6 lg:pb-2 lg:ps-4 xl:p-12 xl:pb-0 xl:ps-8"
                     : "pb-4 lg:p-6 lg:pb-2 lg:pe-4 xl:p-12 xl:pb-0 xl:pe-8 -order-1 lg:order-1"
                 }`}
                 data-wow-delay="0.1s"
               >
-                <h3 className="service__title text-lg text-lime-700 uppercase">
+                <h3 className="service__title text-lg text-orange-700 uppercase">
                   {item.title}
                 </h3>
                 <div className="service__description text-base text-gray-500 pt-2">

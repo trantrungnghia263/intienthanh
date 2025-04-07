@@ -6,7 +6,7 @@ function ButtonLink({ link, text, alignment }) {
     <div className="btn-link group pt-3">
       <Link
         to={link}
-        className={`btn-link__link flex items-center justify-${alignment} gap-1 text-base text-lime-700 transition duration-400 hover:underline`}
+        className={`btn-link__link flex items-center justify-${alignment} gap-1 text-base text-orange-700 transition duration-400 hover:underline`}
         aria-label={text}
       >
         <div className="btn-link__text">
@@ -14,7 +14,7 @@ function ButtonLink({ link, text, alignment }) {
         </div>
         <div className="btn-link__icon overflow-hidden transition duration-300 opacity-0 -translate-x-full group-hover:translate-x-0 group-hover:opacity-100">
           <svg
-            className="w-6 h-6 text-lime-700  "
+            className="w-6 h-6 text-orange-700  "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"

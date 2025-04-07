@@ -47,7 +47,7 @@ function Contact() {
           />
         </svg>
       ),
-      title: "Ngõ 205 Phú Diễn, Bắc Từ Liêm, Hà Nội",
+      title: "90 Trần Thái Tông, Cầu Giấy, Hà Nội ",
     },
     {
       id: 2,
@@ -130,7 +130,7 @@ function Contact() {
           ) : (
             <div className="grid-cols-12 grid gap-4">
               <div className="col-start-1 col-end-13 lg:col-end-5">
-                <h3 className="text-lime-700 text-lg uppercase">
+                <h3 className="text-orange-700 text-lg uppercase">
                   THÔNG TIN LIÊN HỆ CÔNG TY In Tiến Thành
                 </h3>
                 <p className="text-base text-gray-500 pt-3">
@@ -152,7 +152,7 @@ function Contact() {
                 </ul>
               </div>
               <div className="col-start-1 col-end-13 lg:col-start-6 pt-8 md:pt-10 lg:pt-0">
-                <h3 className="text-lime-700 text-lg uppercase pb-1">
+                <h3 className="text-orange-700 text-lg uppercase pb-1">
                   Vui lòng để lại thông tin của bạn
                 </h3>
                 <p className="text-base text-gray-500 pb-4">

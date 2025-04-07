@@ -57,7 +57,7 @@ function Footer() {
           />
         </svg>
       ),
-      title: "Ngõ 205 Phú Diễn, Bắc Từ Liêm, Hà Nội",
+      title: "90 Trần Thái Tông, Cầu Giấy, Hà Nội ",
     },
     {
       id: 2,
@@ -148,13 +148,13 @@ function Footer() {
   ];
 
   const categories = [
-    { title: "In bạt Hiflex", link: "/danh-muc-in/in-bat-hiflex" },
     { title: "In lụa - canvas", link: "/danh-muc-in/in-lua-canvas" },
     { title: "In decal pp", link: "/danh-muc-in/in-decal-pp" },
-    { title: "In decal ô tô", link: "/danh-muc-in/in-decal-o-to" },
     { title: "In backlit", link: "/danh-muc-in/in-backlit" },
     { title: "In backdrop", link: "/danh-muc-in/in-backdrop" },
-    { title: "In băng rôn", link: "/danh-muc-in/in-bang-ron" },
+    { title: "In standee", link: "/danh-muc-in/in-standee" },
+    { title: "In hastag cầm tay", link: "/danh-muc-in/in-hastag-cam-tay" },
+    { title: "In tem nhãn", link: "/danh-muc-in/in-tem-nhan" },
   ];
 
   const policies = [
@@ -171,12 +171,12 @@ function Footer() {
   ];
 
   const frame = `
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4978108641817!2d105.7598118749815!3d21.0527706806026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454dcef7c85ed%3A0x90cdc2a0586fc6d1!2zTmcuIDIwNSDEkC4gUGjDuiBEaeG7hW4sIEzDoG5nIFBow7ogRGnhu4VuLCBQaMO6IERp4buFbiwgQuG6r2MgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1743920130903!5m2!1svi!2s" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.048245872992!2d105.78532767503145!3d21.03075548061906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4c0052fe7b%3A0x10434916d1d2b3de!2zU3VucmlzZSBCdWlsZGluZywgOTAgUC5UcuG6p24gVGjDoWkgVMO0bmcsIEThu4tjaCBW4buNbmcgSOG6rXUsIEPhuqd1IEdp4bqleSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1744013728080!5m2!1svi!2s" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   `;
 
   return (
     <div className="footer">
-      <div className="footer__top bg-lime-700">
+      <div className="footer__top bg-orange-700">
         <div className="container">
           <div className="footer__grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols2 xl:grid-cols-4 gap-0 md:gap-y-7 md:gap-5 lg:gap-y-5 py-10 lg:py-14">
             <div className="footer__info">
@@ -362,12 +362,12 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="footer__bottom bg-lime-800">
+      <div className="footer__bottom bg-orange-800">
         <div className="container">
           <div className="flex items-center gap-1 py-2">
             <img src={iconCopyRight} alt="" />
             <p className="text-sm text-white">
-              Bản quyền thuộc về CÔNG TY In Tiến Thành
+              Bản quyền thuộc về CÔNG TY IN TIẾN THÀNH
             </p>
           </div>
         </div>

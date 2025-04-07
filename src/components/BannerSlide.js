@@ -91,7 +91,7 @@ function BannerSlide() {
             key={index}
             type="button"
             className={`w-3 h-3 rounded-full ${
-              index === activeIndex ? "bg-lime-500" : "bg-gray-300"
+              index === activeIndex ? "bg-orange-500" : "bg-gray-300"
             }`}
             aria-current={index === activeIndex}
             aria-label={`Slide ${index + 1}`}

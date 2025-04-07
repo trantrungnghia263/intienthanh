@@ -22,7 +22,7 @@ function BlogSidebar() {
 
   return (
     <div className="blog-sidebar">
-      <div className="blog-sidebar__title text-white text-base uppercase py-3 px-4 bg-lime-700">
+      <div className="blog-sidebar__title text-white text-base uppercase py-3 px-4 bg-orange-700">
         <p>Tin tức mới</p>
       </div>
       <div className="blog-sidebar__wrapper px-4 py-3 bg-slate-50">
@@ -39,7 +39,7 @@ function BlogSidebar() {
               />
             </div>
             <div className="blog-sidebar__text">
-              <h4 className="blog-sidebar__title text-sm text-gray-700 transition duration-300 group-hover:text-lime-700">
+              <h4 className="blog-sidebar__title text-sm text-gray-700 transition duration-300 group-hover:text-orange-700">
                 {blog.title}
               </h4>
               <div className="blog-sidebar__date text-sm text-gray-500 pt-2">

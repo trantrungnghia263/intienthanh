@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 // COMPONENTS
 import Nav from "./Nav";
 import MenuHamburger from "./MenuHamburger";
+import AnnouncementBar from "./AnnouncementBar";
 
 // IMAGE
 import logo from "../assets/logo/logo.png";
@@ -31,6 +32,9 @@ function Header({ onSearch }) {
 
   return (
     <div className="header sticky top-0 z-50 bg-white border-b">
+      <div className="header__announcement-bar">
+        <AnnouncementBar />
+      </div>
       <div className="header__top lg:py-3">
         <div className="container">
           <div className="flex justify-between items-center">
@@ -73,24 +77,24 @@ function Header({ onSearch }) {
             </div>
             <form
               onSubmit={handleSearchSubmit}
-              className="header__search flex items-center rounded-3xl ps-4 pe-2 bg-white w-96 border border-lime-700 text-lime-700 hidden lg:flex"
+              className="header__search flex items-center rounded-3xl ps-4 pe-2 bg-white w-96 border border-orange-700 text-orange-700 hidden lg:flex"
             >
               <input
-                className="w-full bg-transparent border-none px-4 py-2.5 ps-0 text-lime-700 placeholder-lime-700 focus:outline-none focus:ring-lime-500 focus:border-lime-500"
+                className="w-full bg-transparent border-none px-4 py-2.5 ps-0 text-orange-700 placeholder-orange-700 focus:outline-none focus:ring-orange-500 focus:border-orange-500"
                 type="search"
                 name="search"
                 id="search"
-                placeholder="Tìm kiếm sản phẩm mẫu thiết kế ..."
+                placeholder="Nhập từ khóa bạn muốn tìm kiếm..."
                 value={searchQuery}
                 onChange={handleSearchChange}
               />
               <button
-                className="header__btn-search group w-9 h-8 flex items-center justify-center rounded-full transition duration-300 hover:bg-lime-700 hover:text-white hover: "
+                className="header__btn-search group w-9 h-8 flex items-center justify-center rounded-full transition duration-300 hover:bg-orange-700 hover:text-white hover: "
                 aria-label="Search"
                 type="submit"
               >
                 <svg
-                  className="w-4 h-4 dark:text-lime-700 text-lime-700 transition duration-300 group-hover:text-white group-hover: "
+                  className="w-4 h-4 dark:text-orange-700 text-orange-700 transition duration-300 group-hover:text-white group-hover: "
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

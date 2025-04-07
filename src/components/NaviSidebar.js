@@ -4,34 +4,6 @@ import { Link } from "react-router-dom";
 function NavSidebar() {
   const navigations = [
     {
-      title: "In bạt hiflex",
-      link: "/danh-muc-in/in-bat-hiflex",
-    },
-    {
-      title: "In backlit",
-      link: "/danh-muc-in/in-backlit",
-    },
-    {
-      title: "In decal ôtô",
-      link: "/danh-muc-in/in-decal-o-to",
-    },
-    {
-      title: "In băng rôn",
-      link: "/danh-muc-in/in-bang-ron",
-    },
-    {
-      title: "In lua - canvas",
-      link: "/danh-muc-in/in-lua-canvas",
-    },
-    {
-      title: "In decal PP",
-      link: "/danh-muc-in/in-decal-pp",
-    },
-    {
-      title: "In hastag cầm tay",
-      link: "/danh-muc-in/in-hastag-cam-tay",
-    },
-    {
       title: "In standee",
       link: "/danh-muc-in/in-standee",
     },
@@ -39,12 +11,32 @@ function NavSidebar() {
       title: "In backdrop",
       link: "/danh-muc-in/in-backdrop",
     },
+    {
+      title: "In backlit",
+      link: "/danh-muc-in/in-backlit",
+    },
+    {
+      title: "In decal PP",
+      link: "/danh-muc-in/in-decal-pp",
+    },
+    {
+      title: "In lua - canvas",
+      link: "/danh-muc-in/in-lua-canvas",
+    },
+    {
+      title: "In hastag cầm tay",
+      link: "/danh-muc-in/in-hastag-cam-tay",
+    },
+    {
+      title: "In tem nhãn",
+      link: "/danh-muc-in/in-tem-nhan",
+    },
   ];
 
   return (
     <div className="nav-sidebar">
       <div className="nav-sidebar__content">
-        <div className="nav-sidebar__title text-white text-base uppercase py-3 px-4 bg-lime-700">
+        <div className="nav-sidebar__title text-white text-base uppercase py-3 px-4 bg-orange-700">
           <p>Danh mục in</p>
         </div>
         <ul className="nav-sidebar__list bg-slate-50">

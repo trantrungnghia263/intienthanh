@@ -16,7 +16,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 import { createSlug } from "../util/createSlug";
 
 function PolicyPage() {
-  const icons = `<svg class="w-6 h-6 text-lime-700 dark:text-lime-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  const icons = `<svg class="w-6 h-6 text-orange-700 dark:text-orange-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" strokeWidth="2" d="M11.083 5.104c.35-.8 1.485-.8 1.834 0l1.752 4.022a1 1 0 0 0 .84.597l4.463.342c.9.069 1.255 1.2.556 1.771l-3.33 2.723a1 1 0 0 0-.337 1.016l1.03 4.119c.214.858-.71 1.552-1.474 1.106l-3.913-2.281a1 1 0 0 0-1.008 0L7.583 20.8c-.764.446-1.688-.248-1.474-1.106l1.03-4.119A1 1 0 0 0 6.8 14.56l-3.33-2.723c-.698-.571-.342-1.702.557-1.771l4.462-.342a1 1 0 0 0 .84-.597l1.753-4.022Z"/>
   </svg>`;
 
@@ -25,7 +25,7 @@ function PolicyPage() {
       {
         title: "Điều khoản dịch vụ",
         content: `<div class="policy-page__box">
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         1.Giới thiệu dịch vụ
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500">
@@ -34,7 +34,7 @@ function PolicyPage() {
         thuận với những quy định này. Do đó vui lòng đọc kỹ các điều
         khoản này.
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         2.Điều khoản chung
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -51,7 +51,7 @@ function PolicyPage() {
         quảng cáo phù hợp với khuôn khổ pháp lý của nước sở tại và
         luật pháp quốc tế.
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         3.Độ tuổi và hành vi hoạt động trên trang
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -81,7 +81,7 @@ function PolicyPage() {
       {
         title: "Chính sách giao hàng",
         content: `<div class="policy-page__box">
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         1.Với khách hàng trong nội thành Hà Nội
       </h6>
       <p class="policy-page__paragraph text-base text-gray-600 pb-2">
@@ -101,7 +101,7 @@ function PolicyPage() {
         <li class="text-base text-gray-500 pb-1">Hàng hóa cồng kềnh</li>
         <li class="text-base text-gray-500 pb-1">Trong các trường hợp này, mức phí tính theo giao hàng grab hoặc gửi hàng qua bưu điện.</li>
       </ul>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         2.Với khách hàng tại các tỉnh thành trong cả nước
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -115,20 +115,20 @@ function PolicyPage() {
       {
         title: "Chính sách đổi trả và hoàn tiền",
         content: `<div class="policy-page__box">
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         1.Trường hợp được đổi trả hàng
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500">
       Quý khách có thể được đổi trả hàng khi số lượng sản phẩm do In Tiến Thành sản xuất ra bị lỗi nhiều trên 40% quý khách có thể được hoàn lại tiền hoặc hoàn lại bằng sản phẩm mới tưng ứng số sản phẩm quý khách đã nhận đặt in
       Sản phẩm phải còn được nguyên tem nguyên đai nguyên kiện chưa có dấu hiệu bị xước, rách, hay bẩn và chưa được sử đụng
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         2. Sản phẩm giao hàng không đúng theo đơn
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       Trong trường hợp mà bạn cảm thấy sản phẩm của bạn đặt in mà không đúng như theo trên đơn hàng thì hay nhanh tay liên hệ lại với In Tiến Thành cảu chúng tôi để được nhân viên tư vấn và kiểm tra lại sản phẩm. Nếu đúng như giao hàng sai chúng tôi sẽ thu lại và hoàn lại sản phẩm cho bạn theo đúng như đơn
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         3.Điều kiện đổi trả hàng
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -152,7 +152,7 @@ function PolicyPage() {
       {
         title: "Chính sách bảo mật thông tin",
         content: `<div class="policy-page__box">
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         1.Mục đích và phạm vi thu thập thông tin
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -164,11 +164,11 @@ function PolicyPage() {
       <p class="policy-page__paragraph text-base text-gray-500">
       In Tiến Thành luôn luôn bảo mật thông tin cho tất cả các khách hàng đến đặt in sản phẩm của chúng tôi . Chúng tôi cam kết không bán thông tin hay làm gì ảnh hưởng đến thông tin của khác hàng, và không để cho bên thứ 3 biết.
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         2.Phạm vi sử dụng thông tin
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Thông tin cá nhân thu thập được sẽ chỉ được <span class="text-lime-600 italic">inanhoanggia.vn</span> sử dụng trong nội bộ công ty và cho một hoặc tất cả các mục đích sau đây:
+      Thông tin cá nhân thu thập được sẽ chỉ được <span class="text-orange-600 italic">inanhoanggia.vn</span> sử dụng trong nội bộ công ty và cho một hoặc tất cả các mục đích sau đây:
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       – Hỗ trợ khách hàng
@@ -185,13 +185,13 @@ function PolicyPage() {
       <p class="policy-page__paragraph text-base text-gray-500">
       – Ngoài ra, chúng tôi sẽ sử dụng thông tin bạn cung cấp để hỗ trợ quản lý tài khoản khách hàng; xác nhận và thực hiện các giao dịch tài chính liên quan đến các khoản thanh toán trực tuyến của bạn;
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         3.Thời gian lưu trữ thông tin
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Đối với thông tin cá nhân, <span class="text-lime-600 italic">inanhoanggia.vn</span> chỉ xóa đi dữ liệu này nếu khách hàng có yêu cầu, khách hàng yêu cầu gửi mail về <span class="text-lime-600 italic">tienthanhprint@gmail.com</span>
+      Đối với thông tin cá nhân, <span class="text-orange-600 italic">inanhoanggia.vn</span> chỉ xóa đi dữ liệu này nếu khách hàng có yêu cầu, khách hàng yêu cầu gửi mail về <span class="text-orange-600 italic">tienthanhprint@gmail.com</span>
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         4.Những người hoặc tổ chức có thể được tiếp cận với thông tin cá nhân
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -203,7 +203,7 @@ function PolicyPage() {
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       – Các đối tác có ký hợp động thực hiện 1 phần dịch vụ do In Tiến Thành. Các đối tác này sẽ nhận được những thông tin theo thỏa thuận hợp đồng (có thể 1phần hoặc toàn bộ thông tin tuy theo điều khoản hợp đồng) để tiến hành hỗ trợ người dùng sử dụng dịch vụ do Công ty cung cấp.
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
         5.Địa chỉ của đơn vị thu thập và quản lý thông tin cá nhân
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
@@ -216,25 +216,25 @@ function PolicyPage() {
       Điện thoại: 0765.28.4567
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Website: <span class="text-lime-600 italic">inanhoanggia.vn</span>
+      Website: <span class="text-orange-600 italic">inanhoanggia.vn</span>
       </p>
       <p class="policy-page__paragraph text-base text-gray-500">
-      Email: <span class="text-lime-600 italic">tienthanhprint@gmail.com</span>
+      Email: <span class="text-orange-600 italic">tienthanhprint@gmail.com</span>
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
        6.Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu cá nhân của mình
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      <span class="text-lime-600 italic">inanhoanggia.vn</span> không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi: Hai.inbacviet@gmail.com hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về 094.6666.395
+      <span class="text-orange-600 italic">inanhoanggia.vn</span> không thu thập thông tin khách hàng qua trang web, thông tin cá nhân khách hàng được thực hiện thu thập qua email liên hệ đặt mua sản phẩm, dịch vụ gửi về hộp mail của chúng tôi: Hai.inbacviet@gmail.com hoặc số điện thoại liên hệ đặt mua sản phẩm gọi về 094.6666.395
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu <span class="text-lime-600 italic">inanhoanggia.vn</span> chỉnh sửa dữ liệu cá nhân của mình.
+      Bạn có thể liên hệ địa chỉ email cùng số điện thoại trên để yêu cầu <span class="text-orange-600 italic">inanhoanggia.vn</span> chỉnh sửa dữ liệu cá nhân của mình.
       </p>
-      <h6 class="policy-page__title text-base text-lime-700 uppercase py-3">
+      <h6 class="policy-page__title text-base text-orange-700 uppercase py-3">
        7.Cơ chế tiếp nhận và giải quyết khiếu nại của người tiêu dùng liên quan đến việc thông tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo
       </h6>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
-      ại <span class="text-lime-600 italic">inanhoanggia.vn</span> , việc bảo vệ thông tin cá nhân của bạn là rất quan trọng, bạn được đảm bảo rằng thông tin cung cấp cho chúng tôi sẽ được bảo mật, <span class="text-lime-600 italic">inanhoanggia.vn</span> cam kết không chia sẻ, bán hoặc cho thuê thông tin cá nhân của bạn cho bất kỳ người nào khác. <span class="text-lime-600 italic">inanhoanggia.vn</span> cam kết chỉ sử dụng các thông tin của bạn vào các trường hợp sau:
+      ại <span class="text-orange-600 italic">inanhoanggia.vn</span> , việc bảo vệ thông tin cá nhân của bạn là rất quan trọng, bạn được đảm bảo rằng thông tin cung cấp cho chúng tôi sẽ được bảo mật, <span class="text-orange-600 italic">inanhoanggia.vn</span> cam kết không chia sẻ, bán hoặc cho thuê thông tin cá nhân của bạn cho bất kỳ người nào khác. <span class="text-orange-600 italic">inanhoanggia.vn</span> cam kết chỉ sử dụng các thông tin của bạn vào các trường hợp sau:
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-2">
       – Nâng cao chất lượng dịch vụ dành cho khách hàng
@@ -246,7 +246,7 @@ function PolicyPage() {
       – Khi cơ quan pháp luật có yêu cầu.
       </p>
       <p class="policy-page__paragraph text-base text-gray-500 pb-4">
-      <span class="text-lime-600 italic">inanhoanggia.vn</span> hiểu rằng quyền lợi của bạn trong việc bảo vệ thông tin cá nhân cũng chính là trách nhiệm của chúng tôi nên trong bất kỳ trường hợp có thắc mắc, góp ý nào liên quan đến chính sách bảo mật của <span class="text-lime-600 italic">inanhoanggia.vn</span> , và liên quan đến việc thông tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo vui lòng liên hệ qua số hotline 0756.38.4567 hoặc email: <span class="text-lime-600 italic">tienthanhprint@gmail.com</span>
+      <span class="text-orange-600 italic">inanhoanggia.vn</span> hiểu rằng quyền lợi của bạn trong việc bảo vệ thông tin cá nhân cũng chính là trách nhiệm của chúng tôi nên trong bất kỳ trường hợp có thắc mắc, góp ý nào liên quan đến chính sách bảo mật của <span class="text-orange-600 italic">inanhoanggia.vn</span> , và liên quan đến việc thông tin cá nhân bị sử dụng sai mục đích hoặc phạm vi đã thông báo vui lòng liên hệ qua số hotline 0756.38.4567 hoặc email: <span class="text-orange-600 italic">tienthanhprint@gmail.com</span>
       </p>
     </div>`,
       },

@@ -17,35 +17,17 @@ const categories = [
   {
     id: 1,
     imageUrl:
-      "https://dichvuinbat.namdinhweb.com/wp-content/uploads/2017/10/in-bat-gia-re_nho.jpg",
-    title: "In bạt hiflex",
-  },
-  {
-    id: 2,
-    imageUrl:
       "https://dichvuinbat.namdinhweb.com/wp-content/uploads/2017/10/led_backlit.jpg",
     title: "In Backlit",
   },
   {
-    id: 3,
-    imageUrl:
-      "https://dichvuinbat.namdinhweb.com/wp-content/uploads/2017/10/A5-27.jpg",
-    title: "In Decal ô tô",
-  },
-  {
-    id: 4,
-    imageUrl:
-      "https://inangiadat.com/public/thumbs/829x829x1/100_66-ipMtm3CavN.webp",
-    title: "In băng rôn",
-  },
-  {
-    id: 5,
+    id: 2,
     imageUrl:
       "https://thegioiinan.com/hinhanh/sanpham/inan_90/tin_672/The_gioi_in_an_tin_imagebanner_20200706150954381.jpg",
     title: "In lụa canvas",
   },
   {
-    id: 6,
+    id: 3,
     imageUrl:
       "https://lh3.googleusercontent.com/p/AF1QipNPvfg9LZ7wyQDTEmnMiD0IHz_Vr4iLYORvb7gP=s680-w680-h510",
     title: "In decal pp",
@@ -161,7 +143,7 @@ function SearchResultsPage() {
           </div>
         ) : (
           <div>
-            <div className="search-results-page__title uppercase text-lg text-lime-700 pb-3 border-b">
+            <div className="search-results-page__title uppercase text-lg text-orange-700 pb-3 border-b">
               Kết quả tìm kiếm cho: <strong className="italic">{query}</strong>
             </div>
             {filteredBlogs.length > 0 || filteredCategories.length > 0 ? (

@@ -9,7 +9,7 @@ function ItemCard({ image, link, title }) {
       <div className="item-card__head relative overflow-hidden">
         <div className="item-card__image overflow-hidden">
           <img
-            className="w-full h-80 object-cover transition duration-500 group-hover:scale-105 group-hover:rotate-2"
+            className="w-full h-80 object-cover transition duration-500 group-hover:scale-105"
             src={image}
             alt={title}
             loading="lazy"

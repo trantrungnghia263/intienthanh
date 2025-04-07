@@ -66,8 +66,8 @@ function ContactForm() {
               <svg
                 className={`w-6 h-6 mr-2 ${
                   notification.type === "success"
-                    ? "text-lime-600"
-                    : "text-lime-600"
+                    ? "text-orange-600"
+                    : "text-orange-600"
                 }`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -93,8 +93,8 @@ function ContactForm() {
             <span
               className={`text-sm ${
                 notification.type === "success"
-                  ? "text-lime-600"
-                  : "text-lime-600"
+                  ? "text-orange-600"
+                  : "text-orange-600"
               }`}
             >
               {notification.message}
@@ -121,7 +121,7 @@ function ContactForm() {
             type="text"
             name="from_name"
             id="fullname"
-            className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-lime-700 focus:border-lime-700"
+            className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-orange-700 focus:border-orange-700"
             placeholder="Nhập họ và tên của bạn"
             required
           />
@@ -137,7 +137,7 @@ function ContactForm() {
             type="email"
             name="from_email"
             id="email"
-            className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-lime-700 focus:border-lime-700"
+            className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-orange-700 focus:border-orange-700"
             placeholder="Nhập địa chỉ email của bạn"
             required
           />
@@ -153,7 +153,7 @@ function ContactForm() {
             type="tel"
             name="from_phone"
             id="phone"
-            className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-lime-700 focus:border-lime-700"
+            className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-orange-700 focus:border-orange-700"
             placeholder="Nhập số điện thoại của bạn"
             required
           />
@@ -168,7 +168,7 @@ function ContactForm() {
           name="message"
           id="message"
           rows="4"
-          className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-lime-700 focus:border-lime-700"
+          className="border rounded w-full py-3 px-3 text-gray-700 border-2 leading-tight focus:outline-none focus:shadow-outline focus:ring-orange-700 focus:border-orange-700"
           placeholder="Nhập nội dung tin nhắn của bạn"
           required
         ></textarea>

@@ -69,7 +69,7 @@ function BlogDetail() {
             ) : (
               blog && (
                 <div className="blog-detail__body">
-                  <h3 className="blog-detail__heading text-lg text-lime-700 uppercase pb-4">
+                  <h3 className="blog-detail__heading text-lg text-orange-700 uppercase pb-4">
                     {blog.title}
                   </h3>
                   <div className="blog-detail__image p-3 border w-fit m-auto">

@@ -15,15 +15,12 @@ function MenuHamburger({ isOpen, setIsOpen }) {
       title: "Dịch vụ in",
       link: "/danh-muc-in",
       sub_menu: [
-        { sub_title: "In bạt hilex", sub_link: "/danh-muc-in/in-bat-hiflex" },
-        { sub_title: "In decal ôtô", sub_link: "/danh-muc-in/in-decal-o-to" },
         { sub_title: "In decal pp", sub_link: "/danh-muc-in/in-decal-pp" },
         {
           sub_title: "In lụa - canvas",
           sub_link: "/danh-muc-in/in-lua-canvas",
         },
         { sub_title: "In backlit", sub_link: "/danh-muc-in/in-backlit" },
-        { sub_title: "In băng rôn", sub_link: "/danh-muc-in/in-bang-ron" },
         {
           sub_title: "In hastag cầm tay",
           sub_link: "/danh-muc-in/in-hastag-cam-tay",
@@ -34,7 +31,6 @@ function MenuHamburger({ isOpen, setIsOpen }) {
         },
       ],
     },
-    // { title: "Báo giá", link: "/bao-gia" },
     { title: "Tin tức", link: "/tin-tuc" },
     { title: "Liên hệ", link: "/lien-he" },
   ];
@@ -103,7 +99,7 @@ function MenuHamburger({ isOpen, setIsOpen }) {
                     to={item.link}
                     className={`menu-hamburger__link block py-2.5 text-base font-semibold uppercase ${
                       location.pathname === item.link
-                        ? "text-lime-700"
+                        ? "text-orange-700"
                         : "text-gray-500"
                     }`}
                     onClick={() => item.sub_menu && toggleSubMenu(index)}

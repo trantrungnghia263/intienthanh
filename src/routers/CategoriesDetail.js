@@ -71,7 +71,7 @@ function CategoriesDetail() {
               category && (
                 <>
                   <div className="categories-detail__body">
-                    <h3 className="categories-detail__heading text-lg text-lime-700 uppercase pb-4">
+                    <h3 className="categories-detail__heading text-lg text-orange-700 uppercase pb-4">
                       {category.title}
                     </h3>
                     <div className="categories-detail__image">

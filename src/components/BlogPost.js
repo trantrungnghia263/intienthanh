@@ -32,6 +32,7 @@ function BlogPost() {
   useEffect(() => {
     AOS.init({ duration: 300 });
   }, []);
+
   useEffect(() => {
     const wow = new WOW.WOW({
       live: false,

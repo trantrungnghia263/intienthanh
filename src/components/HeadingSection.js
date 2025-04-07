@@ -19,7 +19,7 @@ function HeadingSection({ icon, title, alignment, isAnimate }) {
             className="heading-section__icon flex items-center justify-center"
             dangerouslySetInnerHTML={{ __html: icon }}
           ></div>
-          <h3 className="heading-section__title text-lg text-lime-700 uppercase font-semibold">
+          <h3 className="heading-section__title text-lg text-orange-700 uppercase font-semibold">
             {title}
           </h3>
         </div>

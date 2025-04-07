@@ -12,7 +12,7 @@ function MultiColumn() {
       id: "1",
       icon: (
         <svg
-          className="text-lime-600"
+          className="text-orange-600"
           width="60"
           height="71"
           viewBox="0 0 60 71"
@@ -31,7 +31,7 @@ function MultiColumn() {
       id: "2",
       icon: (
         <svg
-          className="text-lime-600"
+          className="text-orange-600"
           width="70"
           height="71"
           viewBox="0 0 70 71"
@@ -56,7 +56,7 @@ function MultiColumn() {
       id: "3",
       icon: (
         <svg
-          className="text-lime-600"
+          className="text-orange-600"
           width="70"
           height="71"
           viewBox="0 0 70 71"
@@ -76,7 +76,7 @@ function MultiColumn() {
       id: "4",
       icon: (
         <svg
-          className="text-lime-600"
+          className="text-orange-600"
           width="60"
           height="71"
           viewBox="0 0 60 71"
@@ -111,7 +111,7 @@ function MultiColumn() {
             {columns.map((column) => (
               <div
                 key={column.id}
-                className="p-6 transiton duration-300 border border-dashed border-lime-600 rounded-2xl flex flex-col items-center hover:shadow-2xl hover:border-solid hover:border-gray-300 wow fadeInUp"
+                className="p-6 transiton duration-300 border border-dashed border-orange-600 rounded-2xl flex flex-col items-center hover:shadow-2xl hover:border-solid hover:border-gray-300 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
                 <div>{column.icon}</div>

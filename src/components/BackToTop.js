@@ -33,10 +33,10 @@ function BackToTop() {
       onClick={backToTop}
       className={` ${
         showButton ? `inline-block` : `hidden`
-      } group fixed bottom-[50px] right-[80px] p-3 bg-white border border-lime-700 text-lime-700 rounded-full hover:bg-lime-700 transition duration-300`}
+      } group fixed bottom-[50px] right-[80px] p-3 bg-white border border-orange-700 text-orange-700 rounded-full hover:bg-orange-700 transition duration-300`}
     >
       <svg
-        className="w-6 h-6 text-lime-600 dark:text-lime-600 transition duration-300 group-hover:text-white"
+        className="w-6 h-6 text-orange-600 dark:text-orange-600 transition duration-300 group-hover:text-white"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         width="24"

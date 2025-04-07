@@ -21,7 +21,7 @@ function IntroductionPage() {
     return () => clearTimeout(timer);
   }, []);
 
-  const icons = `<svg class="w-6 h-6 text-lime-700 dark:text-lime-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  const icons = `<svg class="w-6 h-6 text-orange-700 dark:text-orange-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <path stroke="currentColor" strokeWidth="2" d="M11.083 5.104c.35-.8 1.485-.8 1.834 0l1.752 4.022a1 1 0 0 0 .84.597l4.463.342c.9.069 1.255 1.2.556 1.771l-3.33 2.723a1 1 0 0 0-.337 1.016l1.03 4.119c.214.858-.71 1.552-1.474 1.106l-3.913-2.281a1 1 0 0 0-1.008 0L7.583 20.8c-.764.446-1.688-.248-1.474-1.106l1.03-4.119A1 1 0 0 0 6.8 14.56l-3.33-2.723c-.698-.571-.342-1.702.557-1.771l4.462-.342a1 1 0 0 0 .84-.597l1.753-4.022Z"/>
     </svg>`;
 
@@ -40,19 +40,6 @@ function IntroductionPage() {
       <div className="container">
         <div className="row flex-col-reverse lg:flex-wrap lg:flex-row">
           <div
-            className="col relative"
-            style={{ "--col-sm": "12", "--col-md": "4", "--col-lg": "3" }}
-          >
-            <div className="sticky top-40 pt-4 md:pt-6 lg:pt-0">
-              <div className="introduction-page__item">
-                <NavSidebar />
-              </div>
-              <div className="introduction-page__item pt-8">
-                <BlogSidebar />
-              </div>
-            </div>
-          </div>
-          <div
             className="col"
             style={{ "--col-sm": "12", "--col-md": "8", "--col-lg": "9" }}
           >
@@ -66,7 +53,7 @@ function IntroductionPage() {
                   <HeadingSection title="Giới thiệu chung" icon={icons} />
                 </div>
                 <div className="introduction-page__content pt-4">
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     In Tiến Thành – Thế giới in ấn đa sắc màu, sáng tạo với chất
                     lượng đạt chuẩn
                   </h6>
@@ -78,7 +65,7 @@ function IntroductionPage() {
                     thiết bị hiện đại,… In Tiến Thành luôn tự tin mang đến dịch
                     vụ in ấn đa sắc màu, sáng tạo và chất lượng đạt chuẩn.
                   </p>
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     Đôi nét về In Tiến Thành
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
@@ -103,7 +90,7 @@ function IntroductionPage() {
                     vụ. Vì vậy quý doanh nghiệp hoàn toàn có thể đặt niềm tin
                     tuyệt đối vào In Tiến Thành.
                   </p>
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     Sứ mệnh – Mục tiêu – Phương châm hoạt động
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
@@ -143,7 +130,7 @@ function IntroductionPage() {
                     nhu cầu và nguyện vọng của khách hàng làm nền tảng hoạt
                     động.
                   </p>
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     Đội ngũ nhân viên chuyên nghiệp, giàu kinh nghiệm
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
@@ -166,7 +153,7 @@ function IntroductionPage() {
                     luôn làm việc một cách nghiêm túc, chuyên nghiệp đảm bảo sản
                     phẩm in ấn chất lượng được giao đúng hạn.
                   </p>
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     Trang thiết bị hiện đại, thường xuyên cập nhật kỹ thuật mới
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
@@ -182,7 +169,7 @@ function IntroductionPage() {
                     nghiệm kỹ thuật in mới nhất cho hình ảnh sắc nét, đồng màu.
                     Đặc biệt, quý khách hàng có thể in số lượng lớn lấy ngay.
                   </p>
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     Quy trình in ấn tại In Tiến Thành
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
@@ -208,7 +195,7 @@ function IntroductionPage() {
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
                     Bước 5: Giảo bản in và thanh toán chi phí in ấn
                   </p>
-                  <h6 className="introduction-page__title text-lg text-lime-700 py-2">
+                  <h6 className="introduction-page__title text-lg text-orange-700 py-2">
                     Trang thiết bị hiện đại, thường xuyên cập nhật kỹ thuật mới
                   </h6>
                   <p className="introduction-page__paragraph text-base text-gray-500 pb-2">
@@ -239,6 +226,19 @@ function IntroductionPage() {
                 </div>
               </div>
             )}
+          </div>
+          <div
+            className="col relative"
+            style={{ "--col-sm": "12", "--col-md": "4", "--col-lg": "3" }}
+          >
+            <div className="sticky top-40 pt-4 md:pt-6 lg:pt-0">
+              <div className="introduction-page__item">
+                <NavSidebar />
+              </div>
+              <div className="introduction-page__item pt-8">
+                <BlogSidebar />
+              </div>
+            </div>
           </div>
         </div>
       </div>

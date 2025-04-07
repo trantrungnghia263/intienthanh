@@ -8,24 +8,20 @@ function Tag() {
       link: "/danh-muc-in/in-decal-pp",
     },
     {
-      title: "In lụa - canavs",
+      title: "In lụa - canavs,",
       link: "/danh-muc-in/in-lua-canvas",
     },
     {
-      title: "In băng rôn,",
-      link: "/danh-muc-in/in-bang-ron",
-    },
-    {
-      title: "In decal ôtô,",
-      link: "/danh-muc-in/in-decal-o-to",
-    },
-    {
-      title: "In backlit,",
+      title: "In backlit",
       link: "/danh-muc-in/in-backlit",
     },
     {
-      title: "In bạt hifex",
-      link: "/danh-muc-in/in-bat-hiflex",
+      title: "In backdrop",
+      link: "/danh-muc-in/in-backdrop",
+    },
+    {
+      title: "In tem nhãn",
+      link: "/danh-muc-in/in-tem-nhan",
     },
   ];
 
@@ -39,7 +35,7 @@ function Tag() {
       )}`,
       icon: (
         <svg
-          class="w-6 h-6 text-lime-700 dark:text-lime-700"
+          class="w-6 h-6 text-orange-700 dark:text-orange-700"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -152,7 +148,7 @@ function Tag() {
   return (
     <div className="tag">
       <div className="tag__tag">
-        <h4 className="tag__tag-title text-lg text-lime-700 uppercase">
+        <h4 className="tag__tag-title text-lg text-orange-700 uppercase">
           Danh mục liên quan
         </h4>
         <ul className="tag__tag-list py-2 flex flex-wrap items-start lg:flex-nowrap lg:items-center gap-2">
@@ -163,7 +159,7 @@ function Tag() {
             <li className="tag__tag-item" key={index}>
               <Link
                 to={tag.link}
-                className="tag__tag-link text-lime-700 transition duration-300 hover:underline"
+                className="tag__tag-link text-orange-700 transition duration-300 hover:underline"
               >
                 {tag.title}
               </Link>
