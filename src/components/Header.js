@@ -32,16 +32,16 @@ function Header({ onSearch }) {
 
   return (
     <div className="header sticky top-0 z-50 bg-white border-b">
-      <div className="header__announcement-bar">
+      <div className="header__announcement-bar hidden lg:block">
         <AnnouncementBar />
       </div>
       <div className="header__top lg:py-3">
         <div className="container">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center gap-2">
             <Link to="/" className="header__logo hidden lg:block">
               <img src={logo} alt="" className="h-16" />
             </Link>
-            <div className="header__wrapper py-3 lg:py-0 w-full md:w-auto">
+            <div className="header__wrapper py-3 lg:py-0 w-full lg:w-auto">
               <div className="hidden lg:block">
                 <Nav />
               </div>
@@ -77,14 +77,14 @@ function Header({ onSearch }) {
             </div>
             <form
               onSubmit={handleSearchSubmit}
-              className="header__search flex items-center rounded-3xl ps-4 pe-2 bg-white w-96 border border-orange-700 text-orange-700 hidden lg:flex"
+              className="header__search flex items-center rounded-3xl ps-4 pe-2 bg-white lg:w-sm xxl:w-96 border border-orange-700 text-orange-700 hidden lg:flex"
             >
               <input
                 className="w-full bg-transparent border-none px-4 py-2.5 ps-0 text-orange-700 placeholder-orange-700 focus:outline-none focus:ring-orange-500 focus:border-orange-500"
                 type="search"
                 name="search"
                 id="search"
-                placeholder="Nhập từ khóa bạn muốn tìm kiếm..."
+                placeholder="Tìm kiếm..."
                 value={searchQuery}
                 onChange={handleSearchChange}
               />

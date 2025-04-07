@@ -15,23 +15,28 @@ function MenuHamburger({ isOpen, setIsOpen }) {
       title: "Dịch vụ in",
       link: "/danh-muc-in",
       sub_menu: [
+        {
+          sub_title: "In standee",
+          sub_link: "/danh-muc-in/in-standee",
+        },
         { sub_title: "In decal pp", sub_link: "/danh-muc-in/in-decal-pp" },
+        { sub_title: "In backlit", sub_link: "/danh-muc-in/in-backlit" },
+        { sub_title: "In backdrop", sub_link: "/danh-muc-in/in-backdrop" },
         {
           sub_title: "In lụa - canvas",
           sub_link: "/danh-muc-in/in-lua-canvas",
         },
-        { sub_title: "In backlit", sub_link: "/danh-muc-in/in-backlit" },
         {
           sub_title: "In hastag cầm tay",
           sub_link: "/danh-muc-in/in-hastag-cam-tay",
         },
         {
-          sub_title: "In standee",
-          sub_link: "/danh-muc-in/in-standee",
+          sub_title: "In tem nhãn",
+          sub_link: "/danh-muc-in/in-tem-nhan",
         },
       ],
     },
-    { title: "Tin tức", link: "/tin-tuc" },
+    { title: "Bài viết", link: "/tin-tuc" },
     { title: "Liên hệ", link: "/lien-he" },
   ];
 
@@ -42,7 +47,7 @@ function MenuHamburger({ isOpen, setIsOpen }) {
   return (
     <div
       className={
-        "menu-hamburger fixed z-10 bg-gray-900 bg-opacity-25 inset-0 overflow-hidden transition-opacity duration-500 ease-in-out " +
+        "menu-hamburger fixed z-10 bg-gray-900 bg-opacity-25 inset-0 overflow-hidden transition-opacity duration-300 ease-in-out " +
         (isOpen
           ? "opacity-100 pointer-events-auto"
           : "opacity-0 pointer-events-none")
